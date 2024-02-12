@@ -9,9 +9,21 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        hero: "url('/play.jpg')",
+        logo: "url('/logo.jpg')",
+      },
+
+      screens: {
+        sm: "480px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+      },
+      fontSize: {
+        sm: ["14px", "20px"],
+        base: ["16px", "24px"],
+        lg: ["30px", "48px"],
+        xl: ["50px", "92px"],
       },
     },
   },
